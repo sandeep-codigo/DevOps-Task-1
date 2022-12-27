@@ -11,6 +11,18 @@ Creating a Flask Application on EC2 instance that returns Hello World
 6) Pulled the image from docker hub 
 7) run the application with the command sudo docker run -p
 
+## Commands Used : 
+    docker image build -t flaskhelloworld .  -- Builds Our docker Image -- 
+    docker push flaskhelloworld   -- This will push our image to docker hub 
+    sudo docker pull codigo1892/flaskhelloworld:latest    -- to pull our application from dockerhub to EC2
+    sudo docker run -p 5000:5000 codigo1892/flaskhelloworld  -- to run our Flask application 
+
+
+    
+
+
+  
+
 # Output 
 
 [Click me ](http://3.112.127.195:5000/) 
