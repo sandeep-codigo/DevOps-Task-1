@@ -1,6 +1,6 @@
 # DevOps-Task1
 
-Creating a Flask Application that returns Hello World  
+Creating a Flask Application on EC2 instance that returns Hello World  
 
 ## Steps:
 1) Created a Basic Flask application task.py
